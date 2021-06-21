@@ -13315,7 +13315,18 @@ All Question Paper Link - https://drive.google.com/drive/folders/1hA3fY6mEYqO-4S
 `
     )
 
+    }else if (msg.body == `-bore`){
+      fetch("http://www.boredapi.com/api/activity?type=education")
+      .then(res => res.json()).then(con=>{msg.reply(
+`
+*Activity :-* ${con.activity}
+*Type :-* ${con.type}
+*Link :-* ${con.link}
+`
+      )
 
+      })
+     
 // HELP
 } else if (msg.body == '-help'){
     msg.reply(
@@ -13335,6 +13346,10 @@ All Question Paper Link - https://drive.google.com/drive/folders/1hA3fY6mEYqO-4S
 3. -qb <subject>
 4. -frontpage
 5. -guide
+
+  *Activity Commands*
+
+1. -bore 
 `
     )
   } else if (msg.body=='-commands'){
@@ -13355,6 +13370,10 @@ All Question Paper Link - https://drive.google.com/drive/folders/1hA3fY6mEYqO-4S
 3. -qb <subject>
 4. -frontpage
 5. -guide
+
+*Activity Commands*
+
+1. -bore
 `
     )
   }
