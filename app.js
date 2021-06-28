@@ -13326,6 +13326,24 @@ All Question Paper Link - https://drive.google.com/drive/folders/1hA3fY6mEYqO-4S
       )
 
       })
+// News
+
+    }else if(msg.body == `-news`){
+
+fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+.then(res=>res.json())
+.then(con=>{msg.reply(
+`--------Tech News--------
+  
+*Title:* ${con.articles[0].title}
+
+*Description:* ${con.articles[0].description}
+
+*URL:* ${con.articles[0].url}
+`
+)
+  })
+
      
 // HELP
 } else if (msg.body == '-help'){
@@ -13349,7 +13367,8 @@ All Question Paper Link - https://drive.google.com/drive/folders/1hA3fY6mEYqO-4S
 
   *Activity Commands*
 
-1. -bore 
+1. -bore
+2. -news 
 `
     )
   } else if (msg.body=='-commands'){
