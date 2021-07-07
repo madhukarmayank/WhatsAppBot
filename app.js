@@ -13343,7 +13343,156 @@ fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKe
 `
 )
   })
+}else if(msg.body == `-news`){
 
+  fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+  .then(res=>res.json())
+  .then(con=>{msg.reply(
+  `--------Tech News--------
+    
+  *Title:* ${con.articles[1].title}
+  
+  *Description:* ${con.articles[1].description}
+  
+  *URL:* ${con.articles[1].url}
+  `
+  )
+    })
+  }else if(msg.body == `-news`){
+
+    fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+    .then(res=>res.json())
+    .then(con=>{msg.reply(
+    `--------Tech News--------
+      
+    *Title:* ${con.articles[2].title}
+    
+    *Description:* ${con.articles[2].description}
+    
+    *URL:* ${con.articles[2].url}
+    `
+    )
+      })
+    }else if(msg.body == `-news`){
+
+      fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+      .then(res=>res.json())
+      .then(con=>{msg.reply(
+      `--------Tech News--------
+        
+      *Title:* ${con.articles[3].title}
+      
+      *Description:* ${con.articles[3].description}
+      
+      *URL:* ${con.articles[3].url}
+      `
+      )
+        })
+      }else if(msg.body == `-news`){
+
+        fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+        .then(res=>res.json())
+        .then(con=>{msg.reply(
+        `--------Tech News--------
+          
+        *Title:* ${con.articles[4].title}
+        
+        *Description:* ${con.articles[4].description}
+        
+        *URL:* ${con.articles[4].url}
+        `
+        )
+          })
+        }else if(msg.body == `-news`){
+
+          fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+          .then(res=>res.json())
+          .then(con=>{msg.reply(
+          `--------Tech News--------
+            
+          *Title:* ${con.articles[5].title}
+          
+          *Description:* ${con.articles[5].description}
+          
+          *URL:* ${con.articles[5].url}
+          `
+          )
+            })
+          }else if(msg.body == `-news`){
+
+            fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+            .then(res=>res.json())
+            .then(con=>{msg.reply(
+            `--------Tech News--------
+              
+            *Title:* ${con.articles[6].title}
+            
+            *Description:* ${con.articles[6].description}
+            
+            *URL:* ${con.articles[6].url}
+            `
+            )
+              })
+            }else if(msg.body == `-news`){
+
+              fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+              .then(res=>res.json())
+              .then(con=>{msg.reply(
+              `--------Tech News--------
+                
+              *Title:* ${con.articles[7].title}
+              
+              *Description:* ${con.articles[7].description}
+              
+              *URL:* ${con.articles[7].url}
+              `
+              )
+                })
+              }else if(msg.body == `-news`){
+
+                fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+                .then(res=>res.json())
+                .then(con=>{msg.reply(
+                `--------Tech News--------
+                  
+                *Title:* ${con.articles[8].title}
+                
+                *Description:* ${con.articles[8].description}
+                
+                *URL:* ${con.articles[8].url}
+                `
+                )
+                  })
+                }else if(msg.body == `-news`){
+
+                  fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+                  .then(res=>res.json())
+                  .then(con=>{msg.reply(
+                  `--------Tech News--------
+                    
+                  *Title:* ${con.articles[9].title}
+                  
+                  *Description:* ${con.articles[9].description}
+                  
+                  *URL:* ${con.articles[9].url}
+                  `
+                  )
+                    })
+                  }else if(msg.body == `-news`){
+
+                    fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=95f750b483674618abbcc37d560babe4')
+                    .then(res=>res.json())
+                    .then(con=>{msg.reply(
+                    `--------Tech News--------
+                      
+                    *Title:* ${con.articles[10].title}
+                    
+                    *Description:* ${con.articles[10].description}
+                    
+                    *URL:* ${con.articles[10].url}
+                    `
+                    )
+                      })
      
 // HELP
 } else if (msg.body == '-help'){
