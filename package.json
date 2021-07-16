@@ -17,12 +17,13 @@
     "fs": "0.0.1-security",
     "git": "^0.1.5",
     "http": "0.0.1-security",
+    "marvel-api": "^1.1.0",
     "node-fetch": "^2.6.1",
     "novelcovid": "^3.0.2",
     "path": "^0.12.7",
     "qrcode": "^1.4.4",
     "socket.io": "^2.3.0",
-    "whatsapp-web.js": "^1.12.6"
+    "whatsapp-web.js": "^1.13.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
